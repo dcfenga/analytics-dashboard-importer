@@ -33,3 +33,8 @@ elasticdump --input='http://<elastic_search_host>:9200/.kibana' --output=$ --typ
 | jq . >  kibana-config/3_visualization_overall-statistics.kibana.data.json
 ```
 
+# Build
+
+```docker
+docker build -t gerritforge/analytics-dashboard-importer:3.3.1-1 .
+```

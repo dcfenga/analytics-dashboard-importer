@@ -1,5 +1,5 @@
 {
-	"template": "gitcommits",
+	"template": "gitcommits-template",
 	"settings": {
 		"number_of_shards": 1
 	},
