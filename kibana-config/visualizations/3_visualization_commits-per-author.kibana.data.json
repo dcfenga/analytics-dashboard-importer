@@ -3,7 +3,7 @@
 "_type": "visualization",
 "_source": {
 "title": "Commits per author",
-"visState": "{\"title\":\"Commits per author\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"num_commits\",\"customLabel\":\"#Commits\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"author.keyword\",\"size\":50,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+"visState": "{\"title\":\"Commits per author\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"num_commits\",\"customLabel\":\"#Commits\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"author.keyword\",\"size\":200,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
 "uiStateJSON": "{}",
 "description": "",
 "version": 1,
